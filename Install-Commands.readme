@@ -1,0 +1,3 @@
+mv /usr/bin/systemctl /usr/bin/systemctl.old
+curl https://raw.githubusercontent.com/e3tar/Dbus-Error/main/systemctl.py > /usr/bin/systemctl
+chmod +x /usr/bin/systemctl
